@@ -1,0 +1,82 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.swp
+*.swo
+*~
+nvim.bak/
+
+# Logs
+*.log
+logs/
+
+# Cache directories
+cache/
+*/cache/
+.cache/
+
+# Authentication & Secrets
+**/auth.json
+**/token*
+**/secrets*
+**/credentials*
+**/*.pem
+**/*.key
+**/*.cert
+**/*.crt
+.env
+.env.*
+
+# GitHub Copilot (contains auth tokens)
+github-copilot/
+
+# Application-specific sensitive data
+*/sessions/
+*/state/
+*/workspaces/
+*/workspace-storage/
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.so
+
+# Package manager locks (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# Cargo.lock
+
+# OS-specific
+.localized
+
+# Temporary files
+tmp/
+temp/
+*.tmp

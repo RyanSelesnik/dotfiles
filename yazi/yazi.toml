@@ -1,0 +1,14 @@
+# yazi.toml
+[mgr]
+show_hidden = true
+
+[opener]
+edit = [
+  { run = 'nvim "$@"', desc = "Neovim", block = true, for = "unix" }
+]
+
+[preview]
+max_width = 3000
+max_height = 3000
+
+

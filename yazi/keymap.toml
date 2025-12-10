@@ -1,0 +1,25 @@
+[[mgr.prepend_keymap]]
+on = ["g", "s"]
+run = "cd /Users/ryanselesnik/Documents/School/C&O/"
+desc = "Go to C&O directory"
+
+[[mgr.prepend_keymap]]
+on = ["g", "w"]
+run = "cd /Users/ryanselesnik/Documents/writing/"
+desc = "Go to writing directory"
+
+[[mgr.prepend_keymap]]
+on = ["g", "d"]
+run = "cd /Users/ryanselesnik/Documents/Dev"
+desc = "Go to dev directory"
+
+[[mgr.prepend_keymap]]
+on = "!"
+for = "unix"
+run = 'shell "$SHELL" --block'
+desc = "Open $SHELL here"
+
+[[mgr.prepend_keymap]]
+on = ["g", "v"]
+run = 'shell "code ." --orphan'
+desc = "Open VS Code in current directory"
