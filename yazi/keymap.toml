@@ -1,6 +1,6 @@
 [[mgr.prepend_keymap]]
 on = ["g", "s"]
-run = "cd /Users/ryanselesnik/Documents/School/C&O/"
+run = "cd /Users/ryanselesnik/MSC/"
 desc = "Go to C&O directory"
 
 [[mgr.prepend_keymap]]
