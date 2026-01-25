@@ -56,6 +56,12 @@ cache/
 # GitHub Copilot (contains auth tokens)
 github-copilot/
 
+# Raycast (bundled extensions with generated JS, managed by Raycast itself)
+raycast/
+
+# Mole
+mole/
+
 # Application-specific sensitive data
 */sessions/
 */state/
