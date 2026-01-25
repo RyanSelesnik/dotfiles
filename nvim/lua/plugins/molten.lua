@@ -15,6 +15,9 @@ return {
       vim.g.molten_wrap_output = true
       vim.g.molten_virt_text_output = true
       vim.g.molten_virt_lines_off_by_1 = true
+
+      -- Custom highlight for virtual text output (different from comments)
+      vim.api.nvim_set_hl(0, "MoltenVirtualText", { fg = "#89b4fa", italic = true })
     end,
     keys = {
       { "<leader>jj", function()
