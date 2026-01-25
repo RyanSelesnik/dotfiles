@@ -1,4 +1,20 @@
 return {
+  -- Live browser preview with full LaTeX/KaTeX support (like Obsidian)
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    ft = { "markdown" },
+    build = "cd app && npx --yes yarn install",
+    init = function()
+      vim.g.mkdp_filetypes = { "markdown" }
+      vim.g.mkdp_auto_close = 0
+      vim.g.mkdp_theme = "dark"
+    end,
+    keys = {
+      { "<leader>mv", "<cmd>MarkdownPreviewToggle<cr>", desc = "Toggle Markdown Preview" },
+    },
+  },
+
   {
     "rafamadriz/friendly-snippets",
     dependencies = { "L3MON4D3/LuaSnip" },
